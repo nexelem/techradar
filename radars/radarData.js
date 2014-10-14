@@ -1,5 +1,5 @@
 //This is the title for your window tab, and your Radar
-document.title = "Stephen's Technology Radar";
+document.title = "Nexelem's Technology Radar";
 
 
 //This is the concentic circles that want on your radar
@@ -54,7 +54,7 @@ var radar_data = [
         "top" : 18,
         "color" : "#8FA227",
         "items" : [ 
-            //{"name":"Database based Integration", "pc":{"r":350,"t":135},"movement":"t", "blipSize":700},
+            {"name":"Tech radar", "pc":{"r":250,"t":135},"movement":"t"}
             //{"name":"Scrum certification", "pc":{"r":350,"t":95},"movement":"c", "url":"http://www.google.com"},
             //{"name":"Incremental data warehousing", "pc":{"r":250,"t":165},"movement":"c"},    
             //{"name":"DevOps", "pc":{"r":250,"t":110},"movement":"c"},    
@@ -77,9 +77,8 @@ var radar_data = [
         "left": w-200+30,
         "top" : 18,
         "color" : "#587486",
-        "items" : [ 
-            {"name":"OrientDB", "pc":{"r":290,"t":20},"movement":"t"},   
-            {"name":"Vagrant", "pc":{"r":190,"t":10},"movement":"t"},   
+        "items" : [                
+            {"name":"Vagrant", "pc":{"r":190,"t":10},"movement":"t"}
             //{"name":"Cross mobile platforms", "pc":{"r":280,"t":85},"movement":"c"},   
             //{"name":"Github", "pc":{"r":280,"t":70},"movement":"c"},   
             //{"name":"Restfulie", "pc":{"r":280,"t":50},"movement":"c"},   
@@ -103,9 +102,10 @@ var radar_data = [
          "top" : (h/2 + 18),
         "color" : "#DC6F1D",
         "items" : [
-            {"name":"CoreOS", "pc":{"r":190,"t":265},"movement":"t"},   
-            //{"name":"GWT", "pc":{"r":390,"t":250},"movement":"c"},   
-            //{"name":"IE8", "pc":{"r":390,"t":230},"movement":"c"},   
+            {"name":"CoreOS", "pc":{"r":190,"t":265},"movement":"t"}, 
+	    {"name":"OrientDB", "pc":{"r":290,"t":250},"movement":"t"},
+	    {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
+            {"name":"PlayFramework", "pc":{"r":95,"t":230},"movement":"t"}
             //{"name":"WS-* beyond basic profile", "pc":{"r":390,"t":190},"movement":"c"},   
             //{"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
             //{"name":"Mobile Web", "pc":{"r":275,"t":260},"movement":"t"},   
@@ -134,9 +134,9 @@ var radar_data = [
         "left"  : (w-200+30),
         "top" :   (h/2 + 18),
         "items" : [ 
-            //{"name":"Java language end of life", "pc":{"r":290,"t":355},"movement":"c"},   
+            {"name":"CoffeeScript", "pc":{"r":90,"t":355},"movement":"t"},
             //{"name":"F#", "pc":{"r":270,"t":330},"movement":"c"},   
-            //{"name":"Scala", "pc":{"r":290,"t":320},"movement":"c"},   
+            {"name":"Scala", "pc":{"r":190,"t":320},"movement":"t"}   
             //{"name":"Clojure", "pc":{"r":260,"t":310},"movement":"c"},   
             //{"name":"HTML 5", "pc":{"r":250,"t":275},"movement":"c"},   
             //{"name":"DSLs", "pc":{"r":190,"t":340},"movement":"c"},   
