@@ -78,8 +78,8 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [                
-            {"name":"Vagrant", "pc":{"r":190,"t":10},"movement":"t"}
-            //{"name":"Cross mobile platforms", "pc":{"r":280,"t":85},"movement":"c"},   
+            {"name":"Vagrant", "pc":{"r":190,"t":10},"movement":"t"},
+            {"name":"Docker", "pc":{"r":280,"t":85},"movement":"t"}
             //{"name":"Github", "pc":{"r":280,"t":70},"movement":"c"},   
             //{"name":"Restfulie", "pc":{"r":280,"t":50},"movement":"c"},   
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
