@@ -79,8 +79,8 @@ var radar_data = [
         "color" : "#587486",
         "items" : [                
             {"name":"Vagrant", "pc":{"r":190,"t":10},"movement":"t"},
-            {"name":"Docker", "pc":{"r":280,"t":85},"movement":"t"}
-            //{"name":"Github", "pc":{"r":280,"t":70},"movement":"c"},   
+            {"name":"Docker", "pc":{"r":250,"t":85},"movement":"t"},
+            {"name":"BitBucket", "pc":{"r":280,"t":70},"movement":"t"}   
             //{"name":"Restfulie", "pc":{"r":280,"t":50},"movement":"c"},   
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
@@ -103,9 +103,10 @@ var radar_data = [
         "color" : "#DC6F1D",
         "items" : [
             {"name":"CoreOS", "pc":{"r":190,"t":265},"movement":"t"}, 
-	    {"name":"OrientDB", "pc":{"r":290,"t":250},"movement":"t"},
+	    {"name":"OrientDB", "pc":{"r":230,"t":250},"movement":"t"},
 	    {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
-            {"name":"PlayFramework", "pc":{"r":95,"t":230},"movement":"t"}
+            {"name":"PlayFramework", "pc":{"r":95,"t":230},"movement":"t"},
+	    {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"}
             //{"name":"WS-* beyond basic profile", "pc":{"r":390,"t":190},"movement":"c"},   
             //{"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
             //{"name":"Mobile Web", "pc":{"r":275,"t":260},"movement":"t"},   
@@ -135,9 +136,9 @@ var radar_data = [
         "top" :   (h/2 + 18),
         "items" : [ 
             {"name":"CoffeeScript", "pc":{"r":90,"t":355},"movement":"t"},
-            //{"name":"F#", "pc":{"r":270,"t":330},"movement":"c"},   
-            {"name":"Scala", "pc":{"r":190,"t":320},"movement":"t"}   
-            //{"name":"Clojure", "pc":{"r":260,"t":310},"movement":"c"},   
+            {"name":"ClojureScript", "pc":{"r":270,"t":330},"movement":"t"},   
+            {"name":"Scala", "pc":{"r":190,"t":320},"movement":"t"},
+            {"name":"Clojure", "pc":{"r":295,"t":310},"movement":"t"}   
             //{"name":"HTML 5", "pc":{"r":250,"t":275},"movement":"c"},   
             //{"name":"DSLs", "pc":{"r":190,"t":340},"movement":"c"},   
             //{"name":"Groovy", "pc":{"r":190,"t":280},"movement":"c"},   
