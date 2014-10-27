@@ -54,8 +54,8 @@ var radar_data = [
         "top" : 18,
         "color" : "#8FA227",
         "items" : [ 
-            {"name":"Tech radar", "pc":{"r":250,"t":135},"movement":"t"}
-            //{"name":"Scrum certification", "pc":{"r":350,"t":95},"movement":"c", "url":"http://www.google.com"},
+            {"name":"Tech radar", "pc":{"r":250,"t":135},"movement":"t"},
+            {"name":"Logs as Data", "pc":{"r":150,"t":95},"movement":"t"}
             //{"name":"Incremental data warehousing", "pc":{"r":250,"t":165},"movement":"c"},    
             //{"name":"DevOps", "pc":{"r":250,"t":110},"movement":"c"},    
             //{"name":"Polygot Programming", "pc":{"r":180,"t":170},"movement":"c"},    
@@ -78,14 +78,14 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [                
-            {"name":"Vagrant", "pc":{"r":190,"t":10},"movement":"t"},
-            {"name":"Docker", "pc":{"r":250,"t":85},"movement":"t"},
-            {"name":"BitBucket", "pc":{"r":280,"t":70},"movement":"t"}   
+            {"name":"Vagrant", "pc":{"r":105,"t":10},"movement":"t", "url":"https://www.vagrantup.com/"},
+            {"name":"Docker", "pc":{"r":250,"t":85},"movement":"t", "url":"https://www.docker.com/"},
+            {"name":"BitBucket", "pc":{"r":280,"t":70},"movement":"t", "url":"https://bitbucket.org/"},   
             //{"name":"Restfulie", "pc":{"r":280,"t":50},"movement":"c"},   
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},   
-            //{"name":"NoSQL", "pc":{"r":180,"t":65},"movement":"c"},   
+            {"name":"NoSQL", "pc":{"r":30,"t":65},"movement":"t"}   
             //{"name":"Neo4j", "pc":{"r":180,"t":50},"movement":"c"},   
             //{"name":"Message busses without smarts", "pc":{"r":160,"t":85},"movement":"c"},   
             //{"name":"Puppet", "pc":{"r":130,"t":85},"movement":"c"},   
@@ -106,8 +106,8 @@ var radar_data = [
 	    {"name":"OrientDB", "pc":{"r":230,"t":250},"movement":"t"},
 	    {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
             {"name":"PlayFramework", "pc":{"r":95,"t":230},"movement":"t"},
-	    {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"}
-            //{"name":"WS-* beyond basic profile", "pc":{"r":390,"t":190},"movement":"c"},   
+	    {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"},
+            {"name":"MongoDB", "pc":{"r":75,"t":190},"movement":"t"}   
             //{"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
             //{"name":"Mobile Web", "pc":{"r":275,"t":260},"movement":"t"},   
             //{"name":"Google App Engine", "pc":{"r":290,"t":255},"movement":"c"},   
