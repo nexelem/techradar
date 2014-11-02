@@ -85,7 +85,8 @@ var radar_data = [
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},   
-            {"name":"NoSQL", "pc":{"r":30,"t":65},"movement":"t"}   
+            {"name":"NoSQL", "pc":{"r":30,"t":65},"movement":"t"},
+            {"name":"Medium.js", "pc":{"r":290,"t":25},"movement":"t"}   
             //{"name":"Neo4j", "pc":{"r":180,"t":50},"movement":"c"},   
             //{"name":"Message busses without smarts", "pc":{"r":160,"t":85},"movement":"c"},   
             //{"name":"Puppet", "pc":{"r":130,"t":85},"movement":"c"},   
