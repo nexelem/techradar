@@ -81,7 +81,7 @@ var radar_data = [
             {"name":"Vagrant", "pc":{"r":105,"t":10},"movement":"t", "url":"https://www.vagrantup.com/"},
             {"name":"Docker", "pc":{"r":250,"t":85},"movement":"t", "url":"https://www.docker.com/"},
             {"name":"BitBucket", "pc":{"r":280,"t":70},"movement":"t", "url":"https://bitbucket.org/"},   
-            //{"name":"Restfulie", "pc":{"r":280,"t":50},"movement":"c"},   
+            {"name":"Kibana", "pc":{"r":280,"t":50},"movement":"t", "url":"http://www.elasticsearch.org/overview/kibana/"},   
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},   
