@@ -55,7 +55,8 @@ var radar_data = [
         "color" : "#8FA227",
         "items" : [ 
             {"name":"Tech radar", "pc":{"r":250,"t":135},"movement":"t"},
-            {"name":"Logs as Data", "pc":{"r":150,"t":95},"movement":"t"}
+            {"name":"Logs as Data", "pc":{"r":150,"t":95},"movement":"t"},
+            {"name":"Reactive Streams / Akka Streams", "pc":{"r":290,"t":95},"movement":"t"}
             //{"name":"Incremental data warehousing", "pc":{"r":250,"t":165},"movement":"c"},    
             //{"name":"DevOps", "pc":{"r":250,"t":110},"movement":"c"},    
             //{"name":"Polygot Programming", "pc":{"r":180,"t":170},"movement":"c"},    
@@ -81,7 +82,7 @@ var radar_data = [
             {"name":"Vagrant", "pc":{"r":105,"t":10},"movement":"t", "url":"https://www.vagrantup.com/"},
             {"name":"Docker", "pc":{"r":250,"t":85},"movement":"t", "url":"https://www.docker.com/"},
             {"name":"BitBucket", "pc":{"r":280,"t":70},"movement":"t", "url":"https://bitbucket.org/"},   
-            //{"name":"Restfulie", "pc":{"r":280,"t":50},"movement":"c"},   
+            {"name":"Kibana", "pc":{"r":280,"t":50},"movement":"t", "url":"http://www.elasticsearch.org/overview/kibana/"},   
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},   
@@ -104,10 +105,10 @@ var radar_data = [
         "color" : "#DC6F1D",
         "items" : [
             {"name":"CoreOS", "pc":{"r":190,"t":265},"movement":"t"}, 
-	    {"name":"OrientDB", "pc":{"r":230,"t":250},"movement":"t"},
-	    {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
+	        {"name":"OrientDB", "pc":{"r":230,"t":250},"movement":"t"},
+	        {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
             {"name":"PlayFramework", "pc":{"r":95,"t":230},"movement":"t"},
-	    {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"},
+	        {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"},
             {"name":"MongoDB", "pc":{"r":75,"t":190},"movement":"t"}   
             //{"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
             //{"name":"Mobile Web", "pc":{"r":275,"t":260},"movement":"t"},   
