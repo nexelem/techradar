@@ -56,13 +56,10 @@ var radar_data = [
         "items" : [ 
             {"name":"Tech radar", "pc":{"r":250,"t":135},"movement":"t"},
             {"name":"Logs as Data", "pc":{"r":150,"t":95},"movement":"t"},
-<<<<<<< HEAD
-            {"name":"Reactive Streams / Akka Streams", "pc":{"r":290,"t":95},"movement":"t"}
-=======
+            {"name":"Reactive Streams / Akka Streams", "pc":{"r":290,"t":95},"movement":"t"},
             {"name":"Pair Programming", "pc":{"r":120,"t":155},"movement":"t"},
             {"name":"Polygot Programming", "pc":{"r":290,"t":120},"movement":"t"},   
-            {"name":"Functional Programming", "pc":{"r":270,"t":150},"movement":"t"}   
->>>>>>> 2014q4
+            {"name":"Functional Programming", "pc":{"r":270,"t":150},"movement":"t"}  
             //{"name":"Incremental data warehousing", "pc":{"r":250,"t":165},"movement":"c"},    
             //{"name":"DevOps", "pc":{"r":250,"t":110},"movement":"c"},    
             //{"name":"Polygot Programming", "pc":{"r":180,"t":170},"movement":"c"},    
