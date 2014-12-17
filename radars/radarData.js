@@ -89,7 +89,7 @@ var radar_data = [
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},   
-            {"name":"NoSQL", "pc":{"r":30,"t":65},"movement":"t"},
+            {"name":"NoSQL", "pc":{"r":30,"t":65},"movement":"t"}
             //{"name":"Neo4j", "pc":{"r":180,"t":50},"movement":"c"},   
             //{"name":"Message busses without smarts", "pc":{"r":160,"t":85},"movement":"c"},   
             //{"name":"Puppet", "pc":{"r":130,"t":85},"movement":"c"},   
@@ -143,7 +143,7 @@ var radar_data = [
             {"name":"CoffeeScript", "pc":{"r":90,"t":355},"movement":"t"},
             {"name":"ClojureScript", "pc":{"r":270,"t":330},"movement":"t"},   
             {"name":"Scala", "pc":{"r":190,"t":320},"movement":"t"},
-            {"name":"Clojure", "pc":{"r":295,"t":310},"movement":"t"},
+            {"name":"Clojure", "pc":{"r":295,"t":310},"movement":"t"}
             //{"name":"HTML 5", "pc":{"r":250,"t":275},"movement":"c"},   
             //{"name":"DSLs", "pc":{"r":190,"t":340},"movement":"c"},   
             //{"name":"Groovy", "pc":{"r":190,"t":280},"movement":"c"},   
