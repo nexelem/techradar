@@ -55,7 +55,10 @@ var radar_data = [
         "color" : "#8FA227",
         "items" : [ 
             {"name":"Tech radar", "pc":{"r":250,"t":135},"movement":"t"},
-            {"name":"Logs as Data", "pc":{"r":150,"t":95},"movement":"t"}
+            {"name":"Logs as Data", "pc":{"r":150,"t":95},"movement":"t"},
+            {"name":"Pair Programming", "pc":{"r":120,"t":155},"movement":"t"},
+            {"name":"Polygot Programming", "pc":{"r":290,"t":120},"movement":"t"},   
+            {"name":"Functional Programming", "pc":{"r":270,"t":150},"movement":"t"}   
             //{"name":"Incremental data warehousing", "pc":{"r":250,"t":165},"movement":"c"},    
             //{"name":"DevOps", "pc":{"r":250,"t":110},"movement":"c"},    
             //{"name":"Polygot Programming", "pc":{"r":180,"t":170},"movement":"c"},    
@@ -86,7 +89,6 @@ var radar_data = [
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},   
             {"name":"NoSQL", "pc":{"r":30,"t":65},"movement":"t"},
-            {"name":"Medium.js", "pc":{"r":290,"t":25},"movement":"t"}   
             //{"name":"Neo4j", "pc":{"r":180,"t":50},"movement":"c"},   
             //{"name":"Message busses without smarts", "pc":{"r":160,"t":85},"movement":"c"},   
             //{"name":"Puppet", "pc":{"r":130,"t":85},"movement":"c"},   
@@ -104,11 +106,12 @@ var radar_data = [
         "color" : "#DC6F1D",
         "items" : [
             {"name":"CoreOS", "pc":{"r":190,"t":265},"movement":"t"}, 
-	    {"name":"OrientDB", "pc":{"r":230,"t":250},"movement":"t"},
-	    {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
+	        {"name":"OrientDB", "pc":{"r":230,"t":250},"movement":"t"},
+	        {"name":"AngularJS", "pc":{"r":120,"t":230},"movement":"t"},
             {"name":"PlayFramework", "pc":{"r":95,"t":230},"movement":"t"},
-	    {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"},
-            {"name":"MongoDB", "pc":{"r":75,"t":190},"movement":"t"}   
+	        {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"t"},
+            {"name":"MongoDB", "pc":{"r":75,"t":190},"movement":"t"},
+            {"name":"Spring", "pc":{"r":360,"t":190},"movement":"t"}
             //{"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
             //{"name":"Mobile Web", "pc":{"r":275,"t":260},"movement":"t"},   
             //{"name":"Google App Engine", "pc":{"r":290,"t":255},"movement":"c"},   
@@ -139,7 +142,7 @@ var radar_data = [
             {"name":"CoffeeScript", "pc":{"r":90,"t":355},"movement":"t"},
             {"name":"ClojureScript", "pc":{"r":270,"t":330},"movement":"t"},   
             {"name":"Scala", "pc":{"r":190,"t":320},"movement":"t"},
-            {"name":"Clojure", "pc":{"r":295,"t":310},"movement":"t"}   
+            {"name":"Clojure", "pc":{"r":295,"t":310},"movement":"t"},
             //{"name":"HTML 5", "pc":{"r":250,"t":275},"movement":"c"},   
             //{"name":"DSLs", "pc":{"r":190,"t":340},"movement":"c"},   
             //{"name":"Groovy", "pc":{"r":190,"t":280},"movement":"c"},   
