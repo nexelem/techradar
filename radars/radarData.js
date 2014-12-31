@@ -84,6 +84,7 @@ var radar_data = [
             {"name":"Docker", "pc":{"r":160,"t":75},"movement":"t", "url":"https://www.docker.com/"},
             {"name":"Bower", "pc":{"r":190,"t":35},"movement":"t", "url":"http://bower.io/"},
             {"name":"Grunt", "pc":{"r":250,"t":5},"movement":"t", "url":"http://gruntjs.com/"},
+            {"name":"Gulp.js", "pc":{"r":250,"t":15},"movement":"t", "url":"http://gulpjs.com/"},
             {"name":"BitBucket", "pc":{"r":280,"t":70},"movement":"c", "url":"https://bitbucket.org/"},   
             {"name":"Kibana", "pc":{"r":280,"t":50},"movement":"c", "url":"http://www.elasticsearch.org/overview/kibana/"},
             {"name":"Reactive Streams / Akka Streams", "pc":{"r":290,"t":25},"movement":"c", "url": "http://www.reactive-streams.org/"},
