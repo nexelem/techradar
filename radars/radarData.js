@@ -81,15 +81,18 @@ var radar_data = [
         "top" : 18,
         "color" : "#587486",
         "items" : [                            
-            {"name":"Docker", "pc":{"r":160,"t":75},"movement":"t", "url":"https://www.docker.com/"},
+            {"name":"Docker", "pc":{"r":160,"t":75},"movement":"t", "url":"https://www.docker.com/"},            
             {"name":"Bower", "pc":{"r":190,"t":75},"movement":"t", "url":"http://bower.io/"},
+            {"name":"Fig", "pc":{"r":210,"t":55},"movement":"t", "url":"http://www.fig.sh/"},
             {"name":"Grunt", "pc":{"r":250,"t":75},"movement":"t", "url":"http://gruntjs.com/"},
             {"name":"Gulp.js", "pc":{"r":250,"t":70},"movement":"t", "url":"http://gulpjs.com/"},
             {"name":"BitBucket", "pc":{"r":280,"t":50},"movement":"c", "url":"https://bitbucket.org/"},   
-            {"name":"Kibana", "pc":{"r":280,"t":30},"movement":"c", "url":"http://www.elasticsearch.org/overview/kibana/"},
+            {"name":"Kibana", "pc":{"r":285,"t":30},"movement":"c", "url":"http://www.elasticsearch.org/overview/kibana/"},
+            {"name":"Logstash", "pc":{"r":278,"t":34},"movement":"t", "url":"http://www.elasticsearch.org/overview/logstash/"},
             {"name":"Reactive Streams / Akka Streams", "pc":{"r":290,"t":40},"movement":"c", "url": "http://www.reactive-streams.org/"},
             {"name":"Vagrant", "pc":{"r":315,"t":30},"movement":"t", "url":"https://www.vagrantup.com/"},
-            {"name":"Scalaz", "pc":{"r":270,"t":10},"movement":"t", "url":"http://typelevel.org/projects/scalaz/"},
+            {"name":"Scalaz", "pc":{"r":250,"t":20},"movement":"t", "url":"http://typelevel.org/projects/scalaz/"},
+            {"name":"Spark", "pc":{"r":270,"t":10},"movement":"t", "url":"https://spark.apache.org/"}
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},               
@@ -116,6 +119,7 @@ var radar_data = [
 	        {"name":"ReactJS", "pc":{"r":255,"t":230},"movement":"c", "url": "http://facebook.github.io/react/"},
             {"name":"MongoDB", "pc":{"r":275,"t":190},"movement":"t", "url": "http://www.mongodb.org/"},
             {"name":"Spring", "pc":{"r":360,"t":260},"movement":"c", "url": "http://spring.io/"},
+            {"name":"AngularDart", "pc":{"r":250,"t":265},"movement":"t", "url": "https://angulardart.org/"}
             //{"name":"Azure", "pc":{"r":290,"t":265},"movement":"c"},   
             //{"name":"Mobile Web", "pc":{"r":275,"t":260},"movement":"t"},   
             //{"name":"Google App Engine", "pc":{"r":290,"t":255},"movement":"c"},   
@@ -146,7 +150,8 @@ var radar_data = [
             {"name":"Scala", "pc":{"r":20,"t":320},"movement":"t", "url": "http://www.scala-lang.org/"},
             {"name":"CoffeeScript", "pc":{"r":70,"t":300},"movement":"t", "url": "http://coffeescript.org/"},            
             {"name":"ClojureScript", "pc":{"r":270,"t":330},"movement":"c", "url": "http://clojurescriptone.com/"},               
-            {"name":"Clojure", "pc":{"r":295,"t":310},"movement":"c", "url": "http://clojure.org/"}
+            {"name":"Clojure", "pc":{"r":295,"t":290},"movement":"c", "url": "http://clojure.org/"},
+            {"name":"Dart", "pc":{"r":265,"t":350},"movement":"c", "url": "https://www.dartlang.org/"}
             //{"name":"HTML 5", "pc":{"r":250,"t":275},"movement":"c"},   
             //{"name":"DSLs", "pc":{"r":190,"t":340},"movement":"c"},   
             //{"name":"Groovy", "pc":{"r":190,"t":280},"movement":"c"},   
