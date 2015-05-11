@@ -92,7 +92,8 @@ var radar_data = [
             {"name":"Reactive Streams / Akka Streams", "pc":{"r":290,"t":40},"movement":"c", "url": "http://www.reactive-streams.org/"},
             {"name":"Vagrant", "pc":{"r":315,"t":30},"movement":"t", "url":"https://www.vagrantup.com/"},
             {"name":"Scalaz", "pc":{"r":250,"t":20},"movement":"t", "url":"http://typelevel.org/projects/scalaz/"},
-            {"name":"Spark", "pc":{"r":270,"t":10},"movement":"t", "url":"https://spark.apache.org/"}
+            {"name":"Spark", "pc":{"r":270,"t":10},"movement":"t", "url":"https://spark.apache.org/"},
+            {"name":"Angular-Formly", "pc":{"r":255,"t":15},"movement":"t", "url":"http://angular-formly.com/"}            
             //{"name":"RDF triple stores", "pc":{"r":280,"t":30},"movement":"c"},   
             //{"name":"Apache camel", "pc":{"r":180,"t":85},"movement":"c"},   
             //{"name":"Next gen test tools", "pc":{"r":180,"t":75},"movement":"c"},               
